@@ -79,21 +79,34 @@
             </p>
           </div>
           <form>
-            <input type="text" placeholder="5" class="number-field">
+            <table>
+                <tr>
+                  <td><input type="text" placeholder="5" class="number-field"></td>
 
-            <div class="options">
-              <input type="radio" name="options" id="paragraphs" value="paragraphs">
-              <label for="paragraphs">paragraphs</label><br>
-              <input type="radio" name="options" id="words" value="words">
-              <label for="words">words</label><br>
-              <input type="radio" name="options" id="bytes" value="bytes">
-              <label for="bytes">bytes</label><br>
-              <input type="radio" name="options" id="lists" value="lists">
-              <label for="lists">lists</label>
-            </div>
+                  <td>
+                    <div class="options">
+                    <input type="radio" name="options" id="paragraphs" value="paragraphs">
+                    <label for="paragraphs">paragraphs</label><br>
+                    <input type="radio" name="options" id="words" value="words">
+                    <label for="words">words</label><br>
+                    <input type="radio" name="options" id="bytes" value="bytes">
+                    <label for="bytes">bytes</label><br>
+                    <input type="radio" name="options" id="lists" value="lists">
+                    <label for="lists">lists</label>
+                    </div>
+                  </td>
 
-            <input type="checkbox" id="start">
-            <label for="start">Start with 'Lorem<br> ipsum dolor sit amet...'</label>
+                  <td>
+                    <input type="checkbox" id="start">
+                    <label for="start">Start with 'Lorem<br> ipsum dolor sit amet...'</label>
+                  </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td><input type="submit" value="Generate Lorem Ipsum" onclick="sayChoice()"></td>
+                </tr>
+            </table>
           </form>
         </div>
       </div>
@@ -109,6 +122,7 @@
       </address>
     </article>
     <img src="img/bottom-image.png" alt="Page footer showing a red triangle and green triangle in the opposite configuration from the header." class="footer">
+    <script src="js/main.js"></script>
   </body>
 
   

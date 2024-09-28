@@ -100,10 +100,5 @@ form {
   width: 35px;
   height: 20px;
   text-align: center;
-  flex: left;
-}
-
-#start {
-  flex: 1em;
 }
 
