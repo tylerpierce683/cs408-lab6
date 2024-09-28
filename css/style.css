@@ -9,6 +9,7 @@ html {
 body {
   margin: 0;
   background: #ccc;
+  background-image: linear-gradient(#d1d1d1, white, #d1d1d1);
 }
 
 article {
