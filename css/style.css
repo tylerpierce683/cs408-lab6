@@ -8,8 +8,10 @@ html {
 
 body {
   margin: 0;
-  background: #ccc;
+  background: white;
   background-image: linear-gradient(#d1d1d1, white, #d1d1d1);
+  border-top: 10px pink;
+  border-color: pink;
 }
 
 article {
@@ -37,6 +39,71 @@ h1 {
   padding: 44px 0;
   color: white;
   text-shadow: 1px 1px 1px black;
+  /* background-image: url(/img/logo.png); */
 }
 
 /* Your CSS below here */
+.header {
+  width: 100%;
+  border-top: 1mm solid red
+}
+
+.footer {
+  width: 100%;
+  border-bottom: 1mm solid greenyellow;
+}
+
+.logo {
+  position: absolute;
+  top: 17mm;
+  left: 20mm;
+  /* filter: drop-shadow(5px 5px); */
+  box-shadow: 5px 5px;
+  border-radius: 50%;
+}
+
+.content {
+  position: relative;
+  font-family: 'Open Sans, Arial, sans-serif';
+  text-align: center;
+  font-size: 10pt;
+  top: 20%;
+}
+
+.Languages {
+  font-size: 12px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 35pt;
+}
+
+.en {
+  font-size: 10pt;
+}
+
+p {
+  text-align: justify;
+}
+
+div .column-container {
+  column-count: 2;
+  text-align: left;
+}
+
+form {
+  display: flex;
+}
+
+.number-field {
+  width: 35px;
+  height: 20px;
+  text-align: center;
+  flex: left;
+}
+
+#start {
+  flex: 1em;
+}
+
